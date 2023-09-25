@@ -17,7 +17,7 @@ st.subheader('Ask any Ajman University related queries')
 st.divider()
 
 
-loader = PyPDFLoader("C:/Users/MIss Madeeha/Desktop/Student_Handbook_2022-20231.pdf")
+loader = PyPDFLoader("AUBot/Student_Handbook_2022-20231.pdf")
 pages = loader.load_and_split()
 
 #step 2
