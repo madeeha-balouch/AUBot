@@ -5,3 +5,7 @@ enabling conversational interactions based on a given document. The chosen docum
 In summary, this project showcases the integration of the LangChain framework and OpenAI's LLM API. It facilitates informative and contextually coherent conversations by utilizing the content of Ajman University's Student Handbook.
 
 You need to have OpenAI's API key for successful functioning of the project, along with the student handbook that can be accessed from the files section.
+
+For more information, visit the link provided below:
+https://python.langchain.com/docs/use_cases/question_answering/#quickstart 
+
