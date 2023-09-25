@@ -1,5 +1,3 @@
-#step 1
-#Loading unstructured data
 import os
 import streamlit as st
 from langchain.document_loaders import PyPDFLoader
@@ -9,14 +7,13 @@ from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 
-
-
 os.environ["OPENAI_API_KEY"] = "Add your key here"
 st.header("AUBot")
 st.subheader('Ask any Ajman University related queries')
 st.divider()
 
-
+#step 1
+#Loading unstructured data
 loader = PyPDFLoader("AUBot/Student_Handbook_2022-20231.pdf")
 pages = loader.load_and_split()
 
