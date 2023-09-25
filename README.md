@@ -6,6 +6,6 @@ In summary, this project showcases the integration of the LangChain framework an
 
 You need to have OpenAI's API key for successful functioning of the project, along with the student handbook that can be accessed from the files section.
 
-For more information, visit the link provided below:
+For more information, visit the following link:
 https://python.langchain.com/docs/use_cases/question_answering/#quickstart 
 
